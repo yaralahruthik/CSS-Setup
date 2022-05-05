@@ -10,10 +10,12 @@
 /* For rem size */
 html {
   font-size: 62.5%;
+  
+  /* Make everything scale by adding media queries for different devices here, only updating the font-size scales everything! */
 }
 
 /* For width to not include padding and margin */
 body {
   box-sizing: border-box;
-  font-size: 1.6rem;
+  font-size: 1.6rem; /* I usually do not do this, and have explicit font size for every component */
 }
